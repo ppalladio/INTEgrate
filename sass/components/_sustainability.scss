@@ -9,14 +9,40 @@
     padding-left: 9rem;
     transition: all 0.2s;
     cursor: default;
-    
+    @include respond(tab-port){
+        // transform: none;
+        // &:nth-child(2n){
+        //     margin-left: -10rem;
+        //    margin-top: 0rem;
+        //     width: 130%;
+           
+        // }
+        // &:nth-child(2n+1){
+        //     margin-left: -10rem;
+        //     &:not(:first-child){
+        //     margin-top: 70rem;}
+        //     width:130%;
+        //     height: 45rem;
+            
+        // }
+        width: 110%;
+        margin-left: -4rem;
+        margin-top: 5rem auto;
+    }
 
     .paragraph{
+        // @include respond(tab-port){
+        //     transform: none;
+        //     padding-bottom: -30rem;
+        // }
         transform: skewX(12deg);
-       
+        
     }
     &:hover{
         transform:translateY(0.5rem) scale(1.02) skewX(-12deg);
+        @include respond(tab-port){
+        transform: none;
+        }
     }
 
 }
