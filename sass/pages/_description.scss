@@ -3,6 +3,11 @@
     padding: 20rem 10rem 35rem 10rem;
     margin-top: -20vh;
     margin-bottom: 30rem;
+
+    @include respond(big){
+        padding-bottom: 55rem;
+        margin-bottom: 15rem;
+    }
 }
 
 .section-objectives{
@@ -11,7 +16,9 @@
     background-size: cover;
     background-position: 100% 60%;
     transform: skewY(-10deg);
-  
+    @include respond(big){
+        padding-bottom: 25rem;
+    }
 //direct child elements
     & > * {
         transform: skewY(10deg);
@@ -28,6 +35,10 @@
     padding:25rem 0 5rem 0;
     text-align: center;
     margin-top: -10rem;
+    @include respond(big){
+        padding-top: 45rem;
+        margin-top: -25rem;
+      }
 }
 
 .section-project-timeline{

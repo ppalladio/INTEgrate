@@ -14,32 +14,60 @@
         cursor: default;
         transition: all 0.2s;
         outline-offset: 2rem;
+       
 
         &--1 {
             left:8rem;
             top:1rem;
+            @include respond(tab-land){
+                top: 13rem;
+                left: 0rem;
+                max-width: 100%;
+                }
+            
+            
         }
         
         &--2 {
             left:30rem;
             top:-2rem;
+            @include respond(tab-land){
+                top: 25rem;
+                left: 0rem;
+                max-width: 100%;
+                }
         }
 
-        &--3 {
+        &--3 { //asylum
             left:39rem;
             top:15rem;
             z-index: 4;
+            @include respond(tab-land){
+                top: 0rem;
+                left: 0rem;
+                max-width: 100%;
+                }
         }
 
-        &--4 {
+        &--4 {//resettled refugees
             left:1rem;
             top:-2rem;
             z-index: 1;
+            @include respond(tab-land){
+                top: 7rem;
+                left: 0rem;
+                max-width: 100%;
+                }
         }
 
         &--5 {
             left:20rem;
             top:10rem;
+            @include respond(tab-land){
+                top: 1rem;
+                left: 0rem;
+                max-width: 100%;
+                }
         }
 
         &:hover{

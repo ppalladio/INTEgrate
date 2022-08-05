@@ -148,6 +148,10 @@ body {
   color: #fff;
   background: linear-gradient(to bottom, #0170bb, #5dbdb9);
   cursor: default; }
+  @media (max-width: 75em) {
+    .category-container__cards {
+      max-width: 100%;
+      margin: 2rem 2rem 0rem 0rem; } }
   .category-container__cards:hover {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
 
@@ -157,6 +161,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   margin: 2rem; }
+  @media (max-width: 75em) {
+    .heading-tertiary {
+      font-size: 110%; } }
 
 .paragraph {
   font-size: 1.6rem;
@@ -286,20 +293,45 @@ body {
     .composition__target--1 {
       left: 8rem;
       top: 1rem; }
+      @media (max-width: 75em) {
+        .composition__target--1 {
+          top: 13rem;
+          left: 0rem;
+          max-width: 100%; } }
     .composition__target--2 {
       left: 30rem;
       top: -2rem; }
+      @media (max-width: 75em) {
+        .composition__target--2 {
+          top: 25rem;
+          left: 0rem;
+          max-width: 100%; } }
     .composition__target--3 {
       left: 39rem;
       top: 15rem;
       z-index: 4; }
+      @media (max-width: 75em) {
+        .composition__target--3 {
+          top: 0rem;
+          left: 0rem;
+          max-width: 100%; } }
     .composition__target--4 {
       left: 1rem;
       top: -2rem;
       z-index: 1; }
+      @media (max-width: 75em) {
+        .composition__target--4 {
+          top: 7rem;
+          left: 0rem;
+          max-width: 100%; } }
     .composition__target--5 {
       left: 20rem;
       top: 10rem; }
+      @media (max-width: 75em) {
+        .composition__target--5 {
+          top: 1rem;
+          left: 0rem;
+          max-width: 100%; } }
     .composition__target:hover {
       transform: scale(1.05);
       box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
@@ -315,6 +347,9 @@ body {
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   transition: all .3s; }
+  @media (min-width: 112.5em) {
+    .objective-box {
+      width: 28rem; } }
   .objective-box .heading-quaternary {
     padding: 0.5rem 0 1.5rem 0; }
   .objective-box:hover {
@@ -367,6 +402,11 @@ body {
       background-image: linear-gradient(to bottom left, #feb98b, #57bbfe); }
       .timeline__side--front-1 {
         margin: 0rem 5rem 0rem 20rem; }
+        @media (max-width: 75em) {
+          .timeline__side--front-1 {
+            transform: translateX(-5rem);
+            width: 30rem;
+            height: 50rem; } }
       .timeline__side--front-2 {
         margin: 0rem 20rem 0rem 5rem; }
     .timeline__side--back {
@@ -412,6 +452,10 @@ body {
   padding: 20rem 10rem 35rem 10rem;
   margin-top: -20vh;
   margin-bottom: 30rem; }
+  @media (min-width: 112.5em) {
+    .section-description {
+      padding-bottom: 55rem;
+      margin-bottom: 15rem; } }
 
 .section-objectives {
   padding: 15rem 0rem;
@@ -420,6 +464,9 @@ body {
   background-position: 100% 60%;
   transform: skewY(-10deg);
   margin-top: -40rem; }
+  @media (min-width: 112.5em) {
+    .section-objectives {
+      padding-bottom: 25rem; } }
   .section-objectives > * {
     transform: skewY(10deg); }
   .section-objectives .paragraph {
@@ -431,6 +478,10 @@ body {
   padding: 25rem 0 5rem 0;
   text-align: center;
   margin-top: -10rem; }
+  @media (min-width: 112.5em) {
+    .section-sustainability {
+      padding-top: 45rem;
+      margin-top: -25rem; } }
 
 .section-project-timeline {
   padding: 15rem 0 10rem 0;

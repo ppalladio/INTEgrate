@@ -97,6 +97,11 @@ body {
   color: #fff;
   background: linear-gradient(to bottom, $color-two, $color-one);
   cursor:default;
+  @include respond(tab-land){
+    max-width: 100%;
+    margin:2rem 2rem 0rem 0rem;
+
+  }
   &:hover{
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
   }
@@ -108,6 +113,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   margin: 2rem;
+  @include respond(tab-land){
+    font-size: 110%;
+  }
 }
 
 .paragraph{
