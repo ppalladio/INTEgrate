@@ -1,4 +1,4 @@
-Group 2 Javad + Yuxuan
+INTEgreat is a European collaboration aimed at improving the integration of migrant communities in Europe. </br>The platform will directly contribute to the goals of the project and thus support migrant communities in different European countries.
 
 //General Marterial:
 https://openculturalcenter.gitbook.io/integreat/pKqBwbQmOtKKzxJrq5ff/integreat-dissemination-plan/branding
