@@ -20,13 +20,13 @@ https://openculturalcenter.gitbook.io/integreat/pKqBwbQmOtKKzxJrq5ff/integreat-d
 Build Project Page
 
 # to run the project, install locally using npm
-``
+```
 $ cd ..\Integrate
 $ npm i
 after installing, change "sass" to "sass": "node-sass sass/style.scss css/style.css -w"
 
 
-``
+```
 ## Reference page 
 https://startup.gov.tn/en
 
