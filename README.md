@@ -1,5 +1,5 @@
 <h1>Intro</h1>
-**INTEgreat** is a European collaboration aimed at improving the integration of migrant communities in Europe. </br></br>The platform will directly contribute to the goals of the project and thus support migrant communities in different European countries.
+INTEgreat is a European collaboration aimed at improving the integration of migrant communities in Europe. </br></br>The platform will directly contribute to the goals of the project and thus support migrant communities in different European countries.
 
 <h1>Reference</h1>
 <h2>General Marterial</h2>
@@ -18,7 +18,14 @@ https://openculturalcenter.gitbook.io/integreat/pKqBwbQmOtKKzxJrq5ff/integreat-d
 <h1>Assignment</h1>
 
 Build Project Page
+# to run the project, install locally using npm
+``
+$ cd ..\Integrate
+$ npm i
+after installing, change "sass" to "sass": "node-sass sass/style.scss css/style.css -w"
 
+
+``
 <h2>
 Reference page 
 </h2>
