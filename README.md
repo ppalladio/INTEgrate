@@ -8,13 +8,11 @@ The platform will directly contribute to the goals of the project and thus suppo
 ## General Marterial
 https://openculturalcenter.gitbook.io/integreat/pKqBwbQmOtKKzxJrq5ff/integreat-dissemination-plan/branding
 
-
-
 ## Main Theme Colors#
 * #5DBDB9 INTEgreat color 1
-*  #0170BB INTEgreat color 2
-*  #5A6E7E Non-black text
-*  #F4460F To get attention (for important messages)
+* #0170BB INTEgreat color 2
+* #5A6E7E Non-black text
+* #F4460F To get attention (for important messages)
 
 # Assignment
 Build Project Page
@@ -23,8 +21,8 @@ Build Project Page
 ```
 $ cd ..\Integrate
 $ npm i
-after installing, change "sass" to "sass": "node-sass sass/style.scss css/style.css -w"
-
+$ npm run sass
+Open project.html on live server
 
 ```
 ## Reference page 
